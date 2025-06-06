@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/8b42e870-b9dd-480b-9e71-930ec0134e5f/resourceGroups/rg-test-ml-001/providers/Microsoft.Web/sites/fp-world-cup",
+    "appService.deploySubpath": "project_wc"
+}
