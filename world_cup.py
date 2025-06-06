@@ -11,13 +11,13 @@ col1, col3 = st.columns([1,1], gap="small")
 # Generate some dummy data for football teams
 group1 = {
     'Team': ['Maldives', 'Myanmar', 'Iceland', 'Solomon Islands'],
-    'Played': [0, 0, 0, 0],
-    'Wins': [0, 0, 0, 0],
-    'Draws': [0, 0, 0, 0],
-    'Losses': [0, 0, 0, 0],
-    'Goals For': [0, 0, 0, 0],
-    'Goals Against': [0, 0, 0, 0],
-    'Goal Difference': [0, 0, 0, 0],
+    'P': [0, 0, 0, 0],
+    'W': [0, 0, 0, 0],
+    'D': [0, 0, 0, 0],
+    'L': [0, 0, 0, 0],
+    'GF': [0, 0, 0, 0],
+    'GA': [0, 0, 0, 0],
+    'GD': [0, 0, 0, 0],
     'Points': [0, 0, 0, 0]
 }
 
@@ -36,27 +36,27 @@ group2 = {
 
 group3 = {
     'Team': ['New Caledonia', 'Mongolia', 'Sweden', 'Andorra'],
-    'Played': [0, 0, 0, 0],
-    'Wins': [0, 0, 0, 0],
-    'Draws': [0, 0, 0, 0],
-    'Losses': [0, 0, 0, 0],
-    'Goals For': [0, 0, 0, 0],
-    'Goals Against': [0, 0, 0, 0],
-    'Goal Difference': [0, 0, 0, 0],
+    'P': [0, 0, 0, 0],
+    'W': [0, 0, 0, 0],
+    'D': [0, 0, 0, 0],
+    'L': [0, 0, 0, 0],
+    'GF': [0, 0, 0, 0],
+    'GA': [0, 0, 0, 0],
+    'GD': [0, 0, 0, 0],
     'Points': [0, 0, 0, 0]
 }
 
 
 group4 = {
     'Team': ['Venezula', 'Mexico', 'Bahamas', 'Colombia', 'India'],
-    'Played': [0, 0, 0, 0, 0],
-    'Wins': [0, 0, 0, 0, 0],
-    'Draws': [0, 0, 0, 0, 0],
-    'Losses': [0, 0, 0, 0, 0],
-    'Goals For': [0, 0, 0, 0, 0],
-    'Goals Against': [0, 0, 0, 0, 0],
-    'Goal Difference': [0, 0, 0, 0, 0],
-    'Points': [0, 0, 0, 0, 0]
+    'P': [0, 0, 0, 0],
+    'W': [0, 0, 0, 0],
+    'D': [0, 0, 0, 0],
+    'L': [0, 0, 0, 0],
+    'GF': [0, 0, 0, 0],
+    'GA': [0, 0, 0, 0],
+    'GD': [0, 0, 0, 0],
+    'Points': [0, 0, 0, 0]
 }
 df1 = pd.DataFrame(group1)
 df2 = pd.DataFrame(group2)
